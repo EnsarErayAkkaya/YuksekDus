@@ -1151,3 +1151,44 @@ HingeJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!1 &2147194344 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100072, guid: 13074a5f0ed785e47aeba3c0c1a276ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 407515677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2147194345
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147194344}
+  serializedVersion: 2
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!95 &2147194346 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 13074a5f0ed785e47aeba3c0c1a276ad,
+    type: 3}
+  m_PrefabInstance: {fileID: 407515677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2147194347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147194344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a140b860e4c7d746b342f8d7bec37ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chracterAnimator: {fileID: 2147194346}
